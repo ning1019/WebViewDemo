@@ -30,9 +30,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 375, 667)];
-    [button addTarget:self action:@selector(gotoNext) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+//    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 375, 667)];
+//    [button addTarget:self action:@selector(gotoNext) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:button];
     
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, FWIDTH, FHEIGHT - 40)];
     [self.view addSubview:_scrollView];
